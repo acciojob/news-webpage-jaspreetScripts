@@ -7,22 +7,24 @@ body{
 	color:white;
 	margin:5px;
 }
-.head h1{
+header h1{
 	padding:25px;
 	text-align:center;
 }
 .sections{
 	display:flex;
 }
-.section1 ,.section2 , .section3{
+.latest-news-section ,.main-article-section , .pictorial-news-section{
 	width:400px;
 	background-color:white;
 	margin:10px;
+	text-align:center;
+	border-radius:2px;
 }
-.section1{
+.latest-news-section{
 	height:150px;
 }
-.section2{
+.main-article-section{
 	height:200px;
 }
 img{
